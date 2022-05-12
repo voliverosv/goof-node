@@ -47,6 +47,7 @@
     "stream-buffers": "^3.0.1",
     "tap": "^5.7.0",
     "snyk": "^1.290.2",
+    "total4": "0.0.42",
     "tinymce": "4.1.0"
   },
   "devDependencies": {
