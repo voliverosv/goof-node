@@ -17,7 +17,7 @@ module.exports = {
     return str;
   },
 
-  forbidden : function ( res ){
+  forbidden : function ( res ){ //function
     var body       = 'Forbidden';
     res.statusCode = 403;
 
