@@ -1,7 +1,6 @@
 var utils    = require('../utils');
 var mongoose = require('mongoose');
-var query = require('query');
-var Todo     = model('Todo');
+var Todo     = mongoose.model('Todo');
 var User     = mongoose.model('User');
 // TODO:
 var hms = require('humanize-ms');
