@@ -29,6 +29,8 @@ exports.index = function (req, res, next) {
         title: 'Goof TODO',
         subhead: 'Vulnerabilities at their best',
         todos: todos,
+
+      // Making some really cool important change
       });
     });
 };
