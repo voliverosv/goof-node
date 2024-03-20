@@ -41,25 +41,3 @@ spec:
   owner: cloud-entex
   providesApis:
     - asset-service_2023-08-18_experimental
----
-apiVersion: backstage.io/v1alpha1
-kind: API
-metadata:
-  name: asset-service_2023-08-18_experimental
-  title: asset-service 2023-08-18 experimental
-  annotations:
-    api.snyk.io/generated-by: vervet
-  labels:
-    api.snyk.io/version-date: "2023-08-18"
-    api.snyk.io/version-lifecycle: sunset
-    api.snyk.io/version-stability: experimental
-  tags:
-    - 2023-08
-    - experimental
-    - sunset
-spec:
-  type: openapi
-  lifecycle: sunset
-  owner: cloud-entex
-  definition:
-    $text: internal/private/versions/2023-08-18~experimental/spec.json
