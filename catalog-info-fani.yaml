@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha11
 kind: Component
 metadata:
   # Name of the service
-  name: test - backstage asset-service
+  name: test filename
   # Share what the service/store is and does, to help people with minimal knowledge of service understand context
   description: Service to aggregate, deduplicate, and store assets
   annotations:
