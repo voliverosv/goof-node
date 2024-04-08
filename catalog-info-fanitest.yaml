@@ -2,9 +2,10 @@ apiVersion: backstage.io/v1alpha11
 kind: Component
 metadata:
   # Name of the service
-  name: test filename
+  name: test filename customization
   # Share what the service/store is and does, to help people with minimal knowledge of service understand context
   description: Service to aggregate, deduplicate, and store assets
+  title: snyk goof name
   annotations:
     backstage.io/techdocs-ref: dir:.
     circleci.com/project-slug: github/snyk/asset-service
@@ -38,6 +39,6 @@ metadata:
 spec:
   type: snyk-deployed-prod
   lifecycle: "-"
-  owner: cloud-entex
+  owner: fani
   providesApis:
     - asset-service_2023-08-18_experimental
